@@ -299,7 +299,6 @@ mv
 
 .greeting__inner {
   text-align: center;
-
   position: relative;
 }
 
@@ -350,7 +349,6 @@ mv
     line-height:calc(30 / 16);
   }
 }
-
 
 /* ----------
 強み
@@ -584,7 +582,6 @@ mv
 
 .news-item {
   border-bottom: solid 0.1rem #707070;
-
 }
 
 .news-item:first-of-type {
@@ -783,7 +780,7 @@ mv
 
 @media screen and (min-width:768px) {
   a[href^="tel:"] {
-    /* 検証ツールで見るとリンク、HTML上はリンク、でもユーザーはクリックできない状態 */
+    /* 検証ツール、HTML上ではリンクだがユーザーはクリックできない状態 */
     pointer-events: none;
   }
 }
@@ -979,7 +976,6 @@ mv
     font-size: 1.6rem;
     padding-block: 0.9rem;
   }
-
 }
 
 @media screen and (max-width:767px) {
@@ -1036,13 +1032,11 @@ mv
   text-align: center;
   transition: background-color 0.4s, color 0.4s;
   border: 1px solid var(--color-main);
-
   height: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-bottom: 0.2rem;
-
 }
 
 @media screen and (max-width:767px) {
